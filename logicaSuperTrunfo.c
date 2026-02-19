@@ -16,35 +16,35 @@ int main(){
     printf("***Digite os valores das cartas do Super Trunfo***\n");
     
     
-    printf("Carta 1 - Estado: \n");
-    scanf("%[^\n]%*c", estado1);
-    //fgets(estado1, 50, stdin);// texto com espaço
-    //estado1[strcspn(estado1, "\n")]='\0';//tira espaço entre linhas
+    printf("Carta 1 - Estado: ");
+    //scanf("%[^\n]%*c", estado1);
+    fgets(estado1, 50, stdin);// texto com espaço
+    estado1[strcspn(estado1, "\n")]='\0';//tira espaço entre linhas
     
-    printf("Carta 2 - Estado: \n");
-    scanf("%[^\n]%*c", estado2);
-    //fgets(estado2, 50, stdin);// texto com espaço
-    //estado2[strcspn(estado2, "\n")]='\0';//tira espaço entre linhas
+    printf("Carta 2 - Estado: ");
+    //scanf("%[^\n]%*c", estado2);
+    fgets(estado2, 50, stdin);// texto com espaço
+    estado2[strcspn(estado2, "\n")]='\0';//tira espaço entre linhas
      
-    printf("Carta 1 - Código da Carta: \n");
-    scanf("%[^\n]%*c", codigo1);
-    //fgets(codigo1, 50, stdin);// texto com espaço
-    //codigo1[strcspn(codigo1, "\n")]='\0';//tira espaço entre linhas
+    printf("Carta 1 - Código da Carta: ");
+    //scanf("%[^\n]%*c", codigo1);
+    fgets(codigo1, 50, stdin);// texto com espaço
+    codigo1[strcspn(codigo1, "\n")]='\0';//tira espaço entre linhas
     
-    printf("Carta 2 - Código da Carta: \n");
-    scanf("%[^\n]%*c", codigo2);
-    //fgets(codigo2, 50, stdin);// texto com espaço
-    //codigo2[strcspn(codigo2, "\n")]='\0';//tira espaço entre linhas
+    printf("Carta 2 - Código da Carta: ");
+    //scanf("%[^\n]%*c", codigo2);
+    fgets(codigo2, 50, stdin);// texto com espaço
+    codigo2[strcspn(codigo2, "\n")]='\0';//tira espaço entre linhas
 
-    printf("Carta 1 - Nome da Cidade: \n");
-    scanf("%[^\n]%*c", cidade1);
-    //fgets(cidade1, 100, stdin);// texto com espaço
-    //cidade1[strcspn(cidade1, "\n")]='\0';//tira espaço entre linhas
+    printf("Carta 1 - Nome da Cidade: ");
+    //scanf("%[^\n]%*c", cidade1);
+    fgets(cidade1, 100, stdin);// texto com espaço
+    cidade1[strcspn(cidade1, "\n")]='\0';//tira espaço entre linhas
     
-    printf("Carta 2 - Nome da Cidade: \n");
-    scanf("%[^\n]%*c", cidade2);
-    //fgets(cidade2, 100, stdin);// texto com espaço
-    //cidade2[strcspn(cidade2, "\n")]='\0';//tira espaço entre linhas
+    printf("Carta 2 - Nome da Cidade: ");
+    //scanf("%[^\n]%*c", cidade2);
+    fgets(cidade2, 100, stdin);// texto com espaço
+    cidade2[strcspn(cidade2, "\n")]='\0';//tira espaço entre linhas
     
     
     printf("Carta 1 - Quantidade da População: \n");
