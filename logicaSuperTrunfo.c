@@ -47,29 +47,29 @@ int main(){
     cidade2[strcspn(cidade2, "\n")]='\0';//tira espaço entre linhas
     
     
-    printf("Carta 1 - Quantidade da População: \n");
+    printf("Carta 1 - Quantidade da População: ");
     scanf("%lu", &populacao1);
    
-    printf("Carta 2 - Quantidade da População: \n");
+    printf("Carta 2 - Quantidade da População: ");
     scanf("%lu", &populacao2);
     
-    printf("Carta 1 - Área em Km²: \n");
+    printf("Carta 1 - Área em Km²: ");
     scanf("%f", &area1);
    
-    printf("Carta 2 - Área em Km²: \n");
+    printf("Carta 2 - Área em Km²: ");
     scanf("%f", &area2);   
     
-    printf("Carta 1 - PIB da ciadade em Bilhões de Reais: \n");
+    printf("Carta 1 - PIB da ciadade em Bilhões de Reais: ");
     scanf("%f", &pib1);
    
-    printf("Carta 2 - PIB da ciadade em Bilhões de Reais: \n");
+    printf("Carta 2 - PIB da ciadade em Bilhões de Reais: ");
     scanf("%f", &pib2);
     
     
-    printf("Carta 1 - Quantidade de pontos Turisticos: \n");
+    printf("Carta 1 - Quantidade de pontos Turisticos: ");
     scanf("%d", &pontur1);
    
-    printf("Carta 2 - Quantidade de pontos Turisticos: \n");
+    printf("Carta 2 - Quantidade de pontos Turisticos: ");
     scanf("%d", &pontur2);
     
     printf("\n");
