@@ -111,10 +111,9 @@ int main(){
     printf("Super poder Carta 2: %.2f\n", sp2);
     printf("\n");
    
+   
  
-    printf("Comparação de Cartas:\n");
-
-       printf("Comparação de Cartas:\n");
+    printf("Comparação de Cartas (Atributo: População):\n");
 
     if (populacao1 > populacao2){
 
